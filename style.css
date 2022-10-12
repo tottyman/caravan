@@ -9,15 +9,29 @@ a {
   text-decoration: none;
 }
 
+header,nav,h2,.main-visual,footer{
+  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+}
+
 header {
   width: 90%;
   padding: 15px 0;
   margin: 0 auto;
   text-align: center;
 }
+.social{
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.social i{
+  display: inline-block;
+  margin-left: 20px;
+}
 
 header .heading {
-font-size: 32px;
+  font-size: 32px;
 }
 
 .nav-list {
@@ -45,7 +59,7 @@ font-size: 32px;
   height: 300px;
   background-color: rgba(0, 0, 0, 0.5);
   text-align: center;
-  padding: 105px;
+  padding-top: 105px;
 }
 
 .main-visual-text {
@@ -73,7 +87,7 @@ main {
 .blog-heading {
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
-  line-height: 0.6px;
+  line-height: 0.6;
 }
 
 .blog-box {
@@ -155,7 +169,7 @@ main {
 .categories-text:last-child {
   margin: 0;
   padding: 0;
-  border: none; 
+  border: none;
 }
 
 .instagram .sidebar-contents {
@@ -168,11 +182,12 @@ main {
   padding-top: 110px;
   background-size: cover;
   background-position: center;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px
 }
 
 .instagram-box:nth-child(odd) {
-  margin: 10px;
+  margin-right: 10xp;
 }
 
 .instagram-box:nth-child(1) {
@@ -199,7 +214,7 @@ main {
   background-image: url(img/road.jpg);
 }
 
-footer{
+footer {
   width: 100%;
   height: 120px;
   text-align: center;
@@ -207,6 +222,6 @@ footer{
   background-color: #848282;
 }
 
-.footer-text{
+.footer-text {
   color: #fff;
 }
